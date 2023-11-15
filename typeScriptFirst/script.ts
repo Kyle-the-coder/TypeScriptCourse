@@ -4,4 +4,5 @@ button.addEventListener("click", handleClick);
 
 function handleClick(e: MouseEvent) {
   console.log(e.target);
+  console.log("hello");
 }
